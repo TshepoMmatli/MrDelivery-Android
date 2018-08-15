@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BB261E21"
+    android:layout_weight="100">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="30dp"
+        android:layout_height="80dp"
+        android:layout_weight="66.49"/>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="14.56"
+        android:orientation="vertical">
+        android:layout_weight="33.3"
+
+        <TextView
+            android:id="@+id/restaurantNames"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Name"
+            android:textColor="#FFF"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/restaurantAddress"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Restaurant Address"
+            android:textColor="#FFF"
+            android:textAlignment="center" />
+
+       <TextView
+            android:id="@+id/restaurantCity"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Restaurant City"
+            android:textColor="#FFF"
+            android:textAlignment="center" />
+    </LinearLayout>
+</LinearLayout>
